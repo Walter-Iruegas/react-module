@@ -1,5 +1,11 @@
 //import logo from './logo.svg';
+//importaciones a recursos externos
+
+//importaciones de compoentes interno
 import './App.css';
+import Card from './components/Card'
+//importar assets o mages y hojas de estilos
+
 
 function App() {
   
@@ -17,7 +23,14 @@ return (
       <h2>{"Dog"}</h2>
       <img src="https://picsum.photos/id/237/200/300" className="app-image" alt="logo" />
       <p>{"El perro, llamado perro doméstico o can, y en algunos lugares coloquialmente llamado chucho, tuso, choco, entre otros; es un mamífero carnívoro de la familia de los cánidos, que constituye una especie del género Canis."}</p>
+
+      {/*llamar con cierre automatico*/}
+      <Card/>
+      {/*llamar componenete equetas normales*/}
+      <Card></Card>
     </div>
+
+  
 
   );
 }
